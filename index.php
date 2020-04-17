@@ -21,3 +21,8 @@
     include "functions.php";
 
     printArr($numbers);
+
+    echo "<br>";
+    echo "Largest number";
+    echo "<br>";
+    echo largest($numbers);
