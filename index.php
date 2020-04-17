@@ -14,4 +14,16 @@
 <?php
 
     echo "PHP Array Practice";
+    echo "<br>";
 
+    $numbers = array(7, 9, 8, 9, 8, 8, 6);
+
+    function printArr($myArr)
+    {
+        foreach ($myArr as $item)
+        {
+            echo $item . "<br>";
+        }
+    }
+
+    printArr($numbers);
