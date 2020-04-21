@@ -26,3 +26,11 @@
     echo "Largest number";
     echo "<br>";
     echo largest($numbers);
+
+    echo "<br>";
+    echo "<br>";
+    echo "Array with no dups";
+    echo "<br>";
+
+    $numbers = removeDups($numbers);
+    printArr($numbers);

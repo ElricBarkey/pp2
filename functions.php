@@ -12,3 +12,8 @@ function largest($arr)
 {
     return max($arr);
 }
+
+function removeDups($dupArr)
+{
+    return  array_unique($dupArr);
+}
