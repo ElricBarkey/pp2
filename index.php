@@ -31,6 +31,16 @@
     echo "<br>";
     echo "Array with no dups";
     echo "<br>";
+    $noDupes = removeDups($numbers);
+    printArr($noDupes);
 
-    $numbers = removeDups($numbers);
-    printArr($numbers);
+    echo "<br>";
+    echo "Distribution";
+    echo "<br>";
+    $disArr = distribution($numbers);
+    foreach ($disArr as $num => $amount)
+    {
+        echo $num . " => " . $amount;
+        echo "<br>";
+    }
+

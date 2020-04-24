@@ -17,3 +17,10 @@ function removeDups($dupArr)
 {
     return  array_unique($dupArr);
 }
+
+function distribution($assoArr)
+{
+    sort($assoArr);
+    $assoArr = array_count_values($assoArr);
+    return $assoArr;
+}
